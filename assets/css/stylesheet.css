@@ -1,0 +1,85 @@
+div.maintextholder{
+font-family: 'Roboto', sans-serif;
+
+margin-bottom: 0;
+width: 50%;
+height: 100%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: 0 auto;
+position: absolute;
+margin-top: 5%;
+z-index: 0;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+p.firstparagraph{
+    font-size: 24px;
+    line-height: 32px;
+}
+body{
+    margin: auto;
+}
+
+li.toplist{
+    float: left;
+}
+ul.toplist{
+    z-index: 1;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: grey;
+    height: 5%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    }
+    
+    li a{
+    z-index: 1;
+    display: block;
+    border: 5px;
+    border-color: black;
+    padding: 10px;
+    width: 200%;
+    background-color: grey;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    }
+    
+    li a:hover{
+        background-color: lightgrey;
+    }
+    
+    .active {
+        background-color: lightblue;
+    }
+    
+    #li1{
+    
+    padding-right: 5%;
+    }
+
+    #li2{
+    
+        padding-right: 5%;
+    }
+    
+    ul.ingredients li{
+        padding-bottom: 10px;
+    }
+
+    ol.preperations li{
+        padding-bottom:20px;
+    }
